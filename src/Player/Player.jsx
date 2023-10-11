@@ -67,8 +67,8 @@ const Player = ({audioElem, isplaying, setisplaying, currentSong, setCurrentSong
       </div>
       <div className="controls">
         <BsFillSkipStartCircleFill className='btn_action' onClick={skipBack}/>
-        {isplaying ? <BsFillPauseCircleFill className='btn_action pp' onClick={PlayPause}/> : <BsFillPlayCircleFill className='btn_action pp' onClick={PlayPause}/>}
-        <BsFillSkipEndCircleFill className='btn_action' onClick={skiptoNext}/>        
+        {isplaying ? <BsFillPauseCircleFill className='btn_action_pp' onClick={PlayPause}/> : <BsFillPlayCircleFill className='btn_action_pp' onClick={PlayPause}/>}
+        <BsFillSkipEndCircleFill className='btn_action1' onClick={skiptoNext}/>        
       </div>
     </div>
   
